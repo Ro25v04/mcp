@@ -3,13 +3,13 @@ from mcp.server.fastmcp import FastMCP
 from utils.scraper import session
 
 LIVE_SOURCES = {
-    "fair work act 2009": "https://www.austlii.edu.au/au/legis/cth/consol_act/fwa2009114/",
-    "national employment standards": "https://www.austlii.edu.au/au/legis/cth/consol_act/fwa2009114/",
-    "unpaid internship": "https://www.austlii.edu.au/au/legis/cth/consol_act/fwa2009114/",
+    "fair work act 2009": "https://classic.austlii.edu.au/au/legis/cth/consol_act/fwa2009114/",
+    "national employment standards": "https://classic.austlii.edu.au/au/legis/cth/consol_act/fwa2009114/",
+    "unpaid internship": "https://classic.austlii.edu.au/au/legis/cth/consol_act/fwa2009114/",
     "privacy act 1988": "https://www.oaic.gov.au/privacy/australian-privacy-principles",
     "australian privacy principles": "https://www.oaic.gov.au/privacy/australian-privacy-principles",
     "notifiable data breach": "https://www.oaic.gov.au/privacy/notifiable-data-breaches",
-    "work health and safety act 2011": "https://www.austlii.edu.au/au/legis/cth/consol_act/whaas2011218/",
+    "work health and safety act 2011": "https://classic.austlii.edu.au/au/legis/cth/consol_act/whasa2011218/",
     "australian consumer law": "https://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/",
     "competition and consumer act 2010": "https://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/",
     "superannuation guarantee act 1992": "https://www.austlii.edu.au/au/legis/cth/consol_act/sgaa1992237/",
