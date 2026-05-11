@@ -1,10 +1,13 @@
 import os
 from mcp.server.fastmcp import FastMCP
-from tools import register_all
+from tools.legislation_au import register as register_legislation
+from tools.oaic import register as register_oaic
 
-mcp = FastMCP("shared-tools")
-register_all(mcp)
+port = int(os.environ.get("PORT", 8001))
+
+mcp = FastMCP("au-legislation-mcp", host="0.0.0.0", port=port)
+register_legislation(mcp)
+register_oaic(mcp)
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8000))
-    mcp.run(transport="sse", host="0.0.0.0", port=port)
+    mcp.run(transport="sse")
