@@ -3,17 +3,17 @@ from mcp.server.fastmcp import FastMCP
 from utils.scraper import session
 
 LIVE_SOURCES = {
-    "fair work act 2009": "https://www.fairwork.gov.au/employment-conditions/national-employment-standards",
-    "national employment standards": "https://www.fairwork.gov.au/employment-conditions/national-employment-standards",
-    "unpaid internship": "https://www.fairwork.gov.au/find-help-for/unpaid-work/unpaid-work",
+    "fair work act 2009": "https://www.austlii.edu.au/au/legis/cth/consol_act/fwa2009114/",
+    "national employment standards": "https://www.austlii.edu.au/au/legis/cth/consol_act/fwa2009114/",
+    "unpaid internship": "https://www.austlii.edu.au/au/legis/cth/consol_act/fwa2009114/",
     "privacy act 1988": "https://www.oaic.gov.au/privacy/australian-privacy-principles",
     "australian privacy principles": "https://www.oaic.gov.au/privacy/australian-privacy-principles",
     "notifiable data breach": "https://www.oaic.gov.au/privacy/notifiable-data-breaches",
-    "work health and safety act 2011": "https://www.safework.nsw.gov.au/legal-obligations/work-health-and-safety-act-and-regulation",
-    "australian consumer law": "https://www.accc.gov.au/consumers/consumer-rights-guarantees/consumer-guarantees",
-    "competition and consumer act 2010": "https://www.accc.gov.au/consumers/consumer-rights-guarantees/consumer-guarantees",
-    "superannuation guarantee act 1992": "https://www.ato.gov.au/businesses-and-organisations/super-for-employers/paying-super-contributions/how-much-to-pay",
-    "spam act 2003": "https://www.acma.gov.au/spam",
+    "work health and safety act 2011": "https://www.austlii.edu.au/au/legis/cth/consol_act/whaas2011218/",
+    "australian consumer law": "https://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/",
+    "competition and consumer act 2010": "https://www.austlii.edu.au/au/legis/cth/consol_act/caca2010265/",
+    "superannuation guarantee act 1992": "https://www.austlii.edu.au/au/legis/cth/consol_act/sgaa1992237/",
+    "spam act 2003": "https://www.austlii.edu.au/au/legis/cth/consol_act/sa200386/",
 }
 
 STATIC_FALLBACK = {
